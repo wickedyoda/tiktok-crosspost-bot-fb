@@ -3,6 +3,15 @@ import requests
 import json
 import urllib.request
 import facebook_sdk  # You'll need to install this package
+# Your bot logic, including TikTok post retrieval and Facebook posting functions
+import time
+
+while True:
+    # Check for new TikTok posts and cross-post them to Facebook
+    # You can implement this logic based on your specific requirements
+
+    # Sleep for a certain period before checking again (e.g., every 15 minutes)
+    time.sleep(120)  # 900 seconds = 15 minutes
 
 # TikTok API Endpoint
 tiktok_api_url = "https://api.tiktok.com/v2/"
